@@ -20,7 +20,7 @@ const App = () => {
           params: {
             query: query,
             hitsPerPage: 10,
-            restrictSearchableAttributes: "title,url",
+            restrictSearchableAttributes: "title,author,url",
           },
         })
         .then(function (response) {
