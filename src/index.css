@@ -20,7 +20,7 @@
   }
 
   .articles {
-    @apply grid w-full grid-rows-1 gap-6;
+    @apply grid w-full grid-rows-1 gap-4;
   }
 
   .articles .info {
