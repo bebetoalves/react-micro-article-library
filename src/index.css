@@ -31,6 +31,10 @@
     @apply flex flex-col w-full p-5 mx-auto overflow-hidden bg-white rounded shadow;
   }
 
+  .articles article a {
+    @apply text-xs text-gray-500 transition rounded-sm hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50;
+  }
+
   .articles article h3 {
     @apply text-xl font-bold text-gray-900;
   }
