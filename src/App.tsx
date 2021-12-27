@@ -65,7 +65,7 @@ const App = () => {
               <SearchIcon className="w-5 h-5 text-gray-400" />
             </span>
             <input
-              placeholder="What are you looking for?"
+              placeholder="Search articles by title or author..."
               type="text"
               name="search"
               onChange={onChangeQuery}
