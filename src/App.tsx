@@ -84,6 +84,10 @@ const App = () => {
                 <article key={article.objectID}>
                   <h3>{article.title}</h3>
 
+                  {article.url && (
+                    <a className="mt-3 line-clamp-1" href={article.url}>{article.url}</a>
+                  )}
+
                   <footer>
                     <ul>
                       <li>
